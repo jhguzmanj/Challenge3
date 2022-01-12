@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component solution by Jorge H. Guzmán J.
+# Frontend Mentor - Stats preview card component solution by Jorge H. Guzmán J.
 
 This is a solution to the [Stats preview card component](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [FrontEnd Mentor: My Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-by-jorge-h-guzmn-j-Fwax2nP7s)
-- Live Site URL: [GitHub Page: NFT Card Solution](https://jhguzmanj.github.io/Challenge2/)
+- Live Site URL: [GitHub Page: Stats preview card component](https://jhguzmanj.github.io/Challenge3/)
 
 ## My process
 
@@ -35,21 +35,14 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Mobile-first workflow
+- Desktop-first workflow
+- Mobile workflow at the end
 
 ### What I learned
 
-I have learned about handling :root to store information for later use.
+I have learned about @media, overlay, position, flex direction and mix-blend-mode
 
 ```css
-:root {
-  --Soft-blue: hsl(215, 51%, 70%);
-  --Cyan: hsl(178, 100%, 50%);
-  --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
-  --Very-dark-blue-cardBG: hsl(216, 50%, 16%);
-  --Very-dark-blue-line: hsl(215, 32%, 27%);
-  --White: hsl(0, 0%, 100%);
-}
 
 Also about the display option:
 
@@ -62,23 +55,26 @@ Also about the display option:
 
 And finally, how to adjust sizes of images, texts and boxes according to the size of the screen:
 
-@media (max-width: 378px) {
-    section {
-        width: 325px;
-        height: 550px;
-    }
+@media (max-width: 476px) {
+  section {
+    height: 600px;
+    width: 302px;
+    flex-direction: column-reverse;
+    position: absolute;
+    justify-content: flex-end;
+  }
 
 ### Continued development
 
 In the future, my goal is:
 - learn the property of position in more depth
 - better organize html
-- use css grid
+- 
 
 ### Useful resources
 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This helped me with the box shadow property.
-- [CCS Web Docs](https://devdocs.io/css/display) - This helped me with the display property.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/) - This helped me about many properties.
+- [CCS Web Docs](https://devdocs.io/css/display) - This helped me with the display properties.
 
 ## Author
 
